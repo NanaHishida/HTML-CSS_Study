@@ -49,6 +49,7 @@
 
     <h3>表を作ろう</h3>
       <table>
+        <!--枠線のない横5x縦4のテーブル-->
         <tr>
           <th>月曜日</th>
           <th>火曜日</th>
@@ -80,6 +81,7 @@
       </table>
       <p>表を作る際には、複数のタグを使う。tableが表を示し、trが表の横一列を示し、thが表の見出しとなるセルを示し、tdが表のデータとなるセルを作成する。そのままのtableタグでは入力された値が剥き出しで場に置かれる。</p>
       <table border="1">
+        <!--枠線のある横5x縦4のテーブル-->
         <tr>
           <th>月曜日</th>
           <th>火曜日</th>
@@ -111,6 +113,7 @@
       </table>
       <p>tableタグの中にborder="数字"を置くことで、区切られた表を作ることができる。</p>
       <table border="1">
+        <!--枠線のある横3x縦3の、二箇所でセルが統合されているテーブル-->
         <tr>
           <th colspan="2">セル1と2</th>
           <th>セル3</th>
@@ -137,5 +140,10 @@
       <p>inputタグにtypeをtextと指定すると、一行のテキストを入力するエリアを設置できる。名前:の部分は、何のタグも使わずにbody内に直置きでも問題なく表示される。</p>
       感情: <input type="text" placeholder="つかれた">
       <p>inputタグ内にplaceholder="文字"を置くと、入力欄にあらかじめテキストを用意することも可能。</p>
+      検索:<input type="search" placeholder="検索する言葉">
+      メールアドレス:<input type="email" placeholder="メールアドレス">
+      電話番号:<input type="tel= placeholder="電話番号">
+      URL:<input type="url" placeholder="URL">
+      <p>一行テキスト入力欄の内容は複数ある。searchは検索する時のテキスト、emailはメールアドレス、telは電話番号、urlはwebサイトのURLである。</p>
 </body>
 </html>
