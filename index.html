@@ -203,5 +203,13 @@
         <option value="サインペン"> サインペン </option>
       </select>
       <p>セレクトボックスは、クリックすると選択肢が表示されるパーツ。選択肢全体をselectタグで囲み、選択項目はそれぞれoptionタグで囲む。属性には、名前であるname、複数選択を可能にするmultipleがある。valueで選択肢の値を決め、selectedで最初から選ばれている状態にする。</p>
+
+      <!--複数行入力テキストエリア-->
+      <textarea name="message"> メッセージを入力 </textarea>
+      <p>textareaタグを使うと、複数行のテキストが入力できる。textareaタグで囲まれた部分が初期値として表示される。これは、入力を開始しても消えない。</p>
+
+      <!--placeholder付き複数行入力テキストエリア-->
+      <textarea name="second message" placeholder="メッセージを入力"></textarea>
+      <p>placeholder属性を使用すると、同じく指定した部分が初期値として表示されるが、こちらは入力を開始すると消える。</p>
 </body>
 </html>
