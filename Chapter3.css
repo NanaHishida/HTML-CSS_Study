@@ -4,11 +4,13 @@ body {
 }
 h1 {
   color: #191970;
+  font-size: 2rem;
 }
 h2 {
   color: #00008b;
+  font-size: 1.5rem;
 }
 p {
   color: #2f4f4f;
-  font-size: 20px;
+  font-size: 2rem;
 }
