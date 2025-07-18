@@ -10,9 +10,11 @@ h2 {
   font-size: 1.5rem;
 }
 h3 {
+  padding: 10px;
   background-color: #4169e1;
 }
 p {
+  padding: 5px;
   background-color: #e0ffff;
   font-size: 1rem;
 }
