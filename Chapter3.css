@@ -2,12 +2,6 @@
 body {
   background-color: #f8f8ff;
 }
-nav {
-  border-width: medium;
-  border-style: dotted;
-  background-color: #e0ffff;
-  border-color: #4169e1;
-}
 h1 {
   color: #191970;
   font-size: 2rem;
@@ -23,4 +17,19 @@ p {
   padding: 1rem;
   background-color: #e0ffff;
   font-size: 1rem;
+}
+nav {
+  border-width: medium;
+  border-style: dotted;
+  background-color: #e0ffff;
+  border-color: #4169e1;
+}
+.item {
+  background: #0bd;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
+.container {
+  display: flex;
 }
