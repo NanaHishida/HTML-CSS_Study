@@ -233,6 +233,12 @@ aside p {
   object-fit: cover;
 }
 
+/*---Contact---*/
+#contact {
+  background-image: url(Images/contact-bg.jpg);
+  min-height: 100vh;
+}
+
 /*---モバイル版---*/
 @media (max-width: 600px) {
   .page-titile {
